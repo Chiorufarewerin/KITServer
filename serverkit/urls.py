@@ -19,7 +19,7 @@ from serverkit import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include('api.urls')),
-    url(r'^chedule/', include('chedule.urls')),
+    url(r'^schedule/', include('schedule.urls')),
     url(r'^$', views.home)
 
 ]
